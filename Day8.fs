@@ -3,7 +3,7 @@
 // See the 'F# Tutorial' project for more help.
 
 
-let Day7(s:string[]) =
+let Day8(s:string[]) =
     let mutable register = Map.empty
     let mutable largestVal = 0
     //Each line
@@ -39,6 +39,6 @@ let Day7(s:string[]) =
 
 [<EntryPoint>]
 let main argv = 
-    printfn "%A" <| Day7(System.IO.File.ReadAllLines("input.txt"))
+    printfn "%A" <| Day8(System.IO.File.ReadAllLines("input.txt"))
     0 // return an integer exit code
 
